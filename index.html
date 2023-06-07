@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+  <!-- JS Bootstrap -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
+  <link rel="stylesheet" href="./src/CSS/style.css">
+  <link rel="shortcut icon" href="./src/IMG/FAVICON-SPACEX.png" type="image/x-icon">
+  <title>Rumo a marte - OnebitX</title>
+</head>
+
+<body class="py-5">
+  <div class="container px-4 formBody">
+    <div class="text-center">
+      <img src="src/IMG/logoOneBitDark.png" class="img-fluid mt-4 mb-3 topLogo" alt="Logo OneBitCode">
+    </div>
+
+    <form>
+      <p class="paragraph">1 - Qual o seu nome?</p>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="firstName">Primeiro nome:</span>
+        <input type="text" class="form-control" placeholder="Digite aqui" aria-describedby="firstName">
+      </div>
+      <div class="input-group">
+        <span class="input-group-text" id="lastName">Sobrenome:</span>
+        <input type="text" class="form-control" placeholder="Digite aqui" aria-describedby="lastName">
+      </div>
+
+      <p class="paragraph">2 - Qual seu gênero?</p>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="gender" id="gender1">
+        <label for="gender1" class="form-check-label">Masculino</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="gender" id="gender2">
+        <label for="gender2" class="form-check-label">Feminino</label>
+      </div>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" name="gender" id="gender3">
+        <label for="gender3" class="form-check-label">Prefiro não informar</label>
+      </div>
+
+      <p class="paragraph">3 - Marque os treinamentos que você fez:</p>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="training1">
+        <label class="form-check-label" for="training1">Treinamento básico de astronauta</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="training2">
+        <label class="form-check-label" for="training2">Treinamento físico básico</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="training3">
+        <label class="form-check-label" for="training3">Treinamento avançado de astronauta</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="training4">
+        <label class="form-check-label" for="training4">Treinamento físico intenso</label>
+      </div>
+
+      <p class="paragraph">4 - Quais você acha que são suas qualidades?</p>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" value="option1" id="quality1">
+        <label class="form-check-label" for="quality1">Proativo</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" value="option2" id="quality2">
+        <label class="form-check-label" for="quality2">Resistente</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" value="option3" id="quality3">
+        <label class="form-check-label" for="quality3">Não vomito fácil</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" value="option4" id="quality4">
+        <label class="form-check-label" for="quality4">Não temo marciano</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" value="option5" id="quality5">
+        <label class="form-check-label" for="quality5">Já vi todos os star wars</label>
+      </div>
+
+      <div class="text-center">
+        <button class="btn btn-outline-primary my-3 submitBtn" type="button">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="container text-center footer">
+    <p>Feito por JVrovetta &copy; todos os direitos reservados - 2023</p>
+  </div>
+
+</body>
+
+</html>

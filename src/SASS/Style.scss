@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../IMG/backgroundLp.png);
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.topLogo {
+  width: 180px;
+}
+
+.formBody {
+  width: 450px;
+  height: auto;
+  background-color: $secundary-color;
+}
+
+.paragraph {
+  margin: .6rem 0;
+}
+
+.submitBtn {
+  &:hover {
+    color: #fff;
+  }
+}
+
+.footer {
+  margin-top: 3.5rem;
+}
+
+@import "./responsive.scss";
